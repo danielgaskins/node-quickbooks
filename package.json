@@ -1,5 +1,5 @@
 {
-  "name": "node-quickbooks",
+  "name": "@danielgaskins/node-quickbooks",
   "version": "2.0.46",
   "description": "node.js client for Intuit's IPP QuickBooks V3 API.",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "QuickBooks",
     "IPP"
   ],
-  "author": "Michael Cohen",
+  "author": "Daniel Gaskins",
   "license": "ISC",
   "dependencies": {
     "bluebird": "3.3.4",
@@ -29,6 +29,7 @@
     "bluebird": "2.9.25",
     "expect": "0.1.1",
     "mocha": "^10.8.2",
+    "moment": "^2.29.4",
     "ramda": "0.17.1"
   },
   "directories": {
@@ -37,12 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcohen01/node-quickbooks.git"
+    "url": "https://github.com/danielgaskins/node-quickbooks.git"
   },
   "bugs": {
-    "url": "https://github.com/mcohen01/node-quickbooks/issues"
+    "url": "https://github.com/danielgaskins/node-quickbooks/issues"
   },
-  "homepage": "https://github.com/mcohen01/node-quickbooks",
+  "homepage": "https://github.com/danielgaskins/node-quickbooks",
   "overrides": {
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.3",
@@ -50,6 +51,7 @@
     "tough-cookie": "^4.1.3",
     "nanoid": "^3.3.8",
     "serialize-javascript": "^6.0.2",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "qs": "^6.14.1"
   }
 }
