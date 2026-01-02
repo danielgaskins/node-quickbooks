@@ -110,7 +110,7 @@ class QuickBooks {
                     .replace(/>/g, '%3E')
                     .replace(/&/g, '%26')
                     .replace(/#/g, '%23')
-                    .replace(new RegExp('\\', 'g'), '%5C');
+                    .replace(/\\/g, '%5C');
                 qsParts.push(`query=${q}`);
             }
             // Other params
